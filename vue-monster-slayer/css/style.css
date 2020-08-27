@@ -1,0 +1,27 @@
+.sprite-wrapper{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.game-log{
+    max-height: 400px;
+    overflow-y: auto;
+}
+.player-turn{
+    border:1px solid #28a745;
+    color: #28a745;
+}
+.monster-turn{
+    border:1px solid #dc3545;
+    color: #dc3545;
+}
+.game-log ul{
+    list-style-type: none;
+    width: 100%;
+}
+.game-log ul li{
+    padding: 5px;
+    margin: 5px;
+}
